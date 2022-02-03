@@ -6,9 +6,9 @@ npm install
 ```
 
 ### Dependencies
-[EmailJS] (https://www.emailjs.com/docs/sdk/installation/)
+[EmailJS](https://www.emailjs.com/docs/sdk/installation/)
 
-[Vuetify] (https://vuetifyjs.com/en/getting-started/installation/)
+[Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
 
 ### Compiles and hot-reloads for development
 ```
