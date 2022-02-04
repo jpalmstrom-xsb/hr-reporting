@@ -1,14 +1,18 @@
 # HR-Reporting
 
-## Project setup
-```
-npm install
-```
+## Description
+
+
 
 ### Dependencies
 [EmailJS](https://www.emailjs.com/docs/sdk/installation/)
 
 [Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
+
+## Project setup
+```
+npm install
+```
 
 ### Compiles and hot-reloads for development
 ```

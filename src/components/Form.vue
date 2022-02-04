@@ -1,23 +1,11 @@
 <template>
   <v-container>
     <v-row justify="center" style="padding-top: 8%">
-      <v-col cols="6">
-        <v-card max-height="600" color="#e2e8f0" elevation="10">
+
+        <v-card width="750" min-width="350" max-width="800" color="#e2e8f0" elevation="10">
           <v-row justify="center">
             <v-col cols="12" sm="10" md="10" lg="10">
-              <h1 class="login-title">HR Reporting Tool</h1>
-              <!--<v-card-subtitle>All feedback will be emailed to Christina</v-card-subtitle>-->
-              <!--
-              <v-text-field
-                solo
-                label="Full Name"
-                name="fullName"
-                v-model="fullname"
-                autocomplete="nope"
-                type="text"
-              ></v-text-field>
-              -->
-              <!--<v-card-text>Please provide feedback below.</v-card-text>-->
+              <h1 class="login-title">Feedback</h1>
               <v-textarea
                 solo
                 ref="feedback_text"
@@ -35,9 +23,6 @@
             >
           </v-card-actions>
         </v-card>
-      </v-col>
-
-      <!--<v-col cols="6"> </v-col>-->
     </v-row>
 
     <v-dialog
@@ -101,7 +86,7 @@ export default {
     fullname: null,
     feedback_text: '',
     success_dialog: false,
-    failed_dialog: true
+    failed_dialog: false
   }),
 
   methods: {
