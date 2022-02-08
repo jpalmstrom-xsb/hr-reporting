@@ -25,7 +25,7 @@
                   </g>
                 </svg>
     <v-spacer></v-spacer>
-    <v-app-bar-title>HR Reporting</v-app-bar-title>
+    <v-app-bar-title style="color: #18254A">HR Reporting</v-app-bar-title>
   </v-app-bar>
 </template>
 

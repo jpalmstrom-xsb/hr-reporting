@@ -6,6 +6,7 @@
         <v-col
             class="text-center"
             cols="12"
+            style="color: #18254A"
         >
             © 2022 - <strong>XS Brokers Insurance Agency, Inc. All Rights Reserved.</strong>
         </v-col>
