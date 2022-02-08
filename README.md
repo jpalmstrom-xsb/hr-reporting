@@ -1,7 +1,7 @@
 # HR-Reporting
 
 ## Description
-
+This is a Vue.2 project that allows for employee feedback to XS Brokers Human Resources. This app uses EmailJS to send an email with Templated Data. See page Form.vue to change the template data.
 
 
 ### Dependencies
