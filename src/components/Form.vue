@@ -99,9 +99,12 @@ export default {
 
       emailjs.send('service_ynbpmwq', 'template_eqyzgds', template_data, 'user_n2Ap4T9hcJt4qfvvGKixn')
         .then((result) => {
-            console.log('SUCCESS!', result.text);
+          if (result.status == 200) {
             this.success_dialog = true
             this.feedback_text = ''
+          } else {
+            this.failed_dialog = true
+          }           
         }, (error) => {
             console.log('FAILED...', error.text);
             this.failed_dialog = true
